@@ -32,9 +32,10 @@ struct CustomNavigationBar: View {
                     Spacer()
                 }
                 .padding()
-                .background(Color.green)
-                .foregroundColor(.white)
+                .background(Color(hex: "A3ECF0") ?? .blue)
+                .foregroundColor(.black)
                 .frame(height: 44)
+                .transition(.move(edge: .top))
             } else {
                 VStack {
                     HStack {
@@ -46,12 +47,9 @@ struct CustomNavigationBar: View {
                         }
                         Spacer()
                     }
-//                    Text(title)
-//                        .font(.largeTitle)
-//                        .padding(.top, 50)
                     HStack {
-                        Text(title)//subtitle
-                            .font(.headline)
+                        Text(title)
+                            .font(.largeTitle)
                         Spacer()
                         Button(action: {
                             // Action for button
@@ -61,11 +59,15 @@ struct CustomNavigationBar: View {
                     }
                     .padding()
                 }
-                .background(Color.blue)
-                .foregroundColor(.white)
+                .background(Color(hex: "A3ECF0") ?? .blue)
+                .foregroundColor(.black)
+                .transition(.move(edge: .top))
             }
         }
-        .animation(.easeInOut, value: isCollapsed)
+//        .animation(.easeInOut, value: isCollapsed)
+        .animation(.spring(response: 0.3, dampingFraction: 0.7, blendDuration: 0.3), value: isCollapsed)
     }
 }
+
+
 

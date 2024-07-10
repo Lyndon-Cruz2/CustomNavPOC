@@ -14,9 +14,16 @@ struct DetailView: View {
 
     var body: some View {
         VStack {
-            CustomNavigationBar(isCollapsed: .constant(true), title: title, subtitle: "", iconName: "", showBackButton: true, onBack: {
-                self.presentationMode.wrappedValue.dismiss()
-            })
+            CustomNavigationBar(
+                isCollapsed: .constant(true),
+                title: title,
+                subtitle: "",
+                iconName: "",
+                showBackButton: true,
+                onBack: {
+                    self.presentationMode.wrappedValue.dismiss()
+                }
+            )
             Spacer()
             Text(title)
                 .font(.largeTitle)
@@ -25,4 +32,3 @@ struct DetailView: View {
         .navigationBarHidden(true)
     }
 }
-

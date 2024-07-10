@@ -14,6 +14,7 @@
 		67D548072C3DEF5C001BDB1D /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D548062C3DEF5C001BDB1D /* CustomNavigationBar.swift */; };
 		67D548092C3DEF9B001BDB1D /* ScrollOffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D548082C3DEF9B001BDB1D /* ScrollOffsetKey.swift */; };
 		67D5480B2C3DF2C5001BDB1D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D5480A2C3DF2C5001BDB1D /* DetailView.swift */; };
+		67D5480D2C3E11CB001BDB1D /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D5480C2C3E11CB001BDB1D /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		67D548062C3DEF5C001BDB1D /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		67D548082C3DEF9B001BDB1D /* ScrollOffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetKey.swift; sourceTree = "<group>"; };
 		67D5480A2C3DF2C5001BDB1D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		67D5480C2C3E11CB001BDB1D /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				67D547F82C3DEF2A001BDB1D /* NavBarApp.swift */,
 				67D547FA2C3DEF2A001BDB1D /* ContentView.swift */,
 				67D548062C3DEF5C001BDB1D /* CustomNavigationBar.swift */,
+				67D5480C2C3E11CB001BDB1D /* Color+Extensions.swift */,
 				67D5480A2C3DF2C5001BDB1D /* DetailView.swift */,
 				67D548082C3DEF9B001BDB1D /* ScrollOffsetKey.swift */,
 				67D547FC2C3DEF2C001BDB1D /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 				67D547F92C3DEF2A001BDB1D /* NavBarApp.swift in Sources */,
 				67D5480B2C3DF2C5001BDB1D /* DetailView.swift in Sources */,
 				67D548092C3DEF9B001BDB1D /* ScrollOffsetKey.swift in Sources */,
+				67D5480D2C3E11CB001BDB1D /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
